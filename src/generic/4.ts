@@ -7,7 +7,7 @@ interface Task {
   };
 }
 class Component<Task> {
-  constructor(public props: Task) {}
+  constructor(public props) {}
 }
 
 class Page extends Component<Task> {
