@@ -1,7 +1,8 @@
 let some: unknown;
 some = "Text";
-if (some === "string") {
-  let str: string;
+let str: string;
+
+if (typeof some === "string") {
   str = some;
 }
 
